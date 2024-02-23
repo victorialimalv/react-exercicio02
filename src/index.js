@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { Round } from './components/Round';
 import { Square } from './components/Square';
- 
+import { Triangle } from './components/Triangle'; 
 
 
 /*
@@ -39,8 +39,7 @@ root.render(
   <React.StrictMode>
     <Round />
     <Square />
-    
-    
+    <Triangle />
 
   </React.StrictMode>
 );
